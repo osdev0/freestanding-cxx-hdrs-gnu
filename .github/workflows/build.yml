@@ -10,7 +10,7 @@ jobs:
   build:
     strategy:
       matrix:
-        target_arch: [i686, x86_64, aarch64, loongarch64, riscv64, m68k]
+        target_arch: [i686, x86_64, aarch64, loongarch64, riscv64, m68k, mips64]
 
     runs-on: ubuntu-latest
     container: archlinux:latest
